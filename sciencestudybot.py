@@ -19,20 +19,20 @@ while tracker !=1:
   answer = input("Your answer: ")
   answer = answer.lower()
   if answer == "a":
-    output = "Wrong. This is not subtraction."
+    output = "Wrong. This is not subtraction.try again."
     score -=1
   elif answer == "b":
-    output = "Wrong. This is not multiplication."
+    output = "Wrong. This is not multiplication.try again."
     score -=1
   elif answer == "c":
     output = "Yes, that's right!"
     tracker =1
     score +=1
   elif answer == "d":
-    output = "Wrong. This is not division."
+    output = "Wrong. This is not division.try again."
     score -=1
   else:
-    output = "Please choose a, b, c or d only."
+    output = "Please choose either a, b, c or d only."
   
   print()
   print(output)
@@ -60,14 +60,14 @@ while tracker !=1:
     tracker =1
     score +=1
   elif answer == "b":
-    output = "Wrong. If so, then it will be written as H and H - two hydrogen atoms."
+    output = "Wrong. If so, then it will be written as H and H - two hydrogen atoms.keep going."
     score -=1
   elif answer == "c":
-    output = "Wrong. Clearly the number 2 in the formulae must mean something?"
+    output = "Wrong. Clearly the number 2 in the formulae must mean something?keep going."
     score -=1
     
   elif answer == "d":
-    output = "Wrong. What's the difference between a molecule and an atom?"
+    output = "Wrong. What's the difference between a molecule and an atom?keep going."
     score -=1
   else:
     output = "Please choose a, b, c or d only."
