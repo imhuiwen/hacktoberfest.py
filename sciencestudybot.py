@@ -19,7 +19,7 @@ while tracker !=1:
   answer = input("Your answer: ")
   answer = answer.lower()
   if answer == "a":
-    output = "Wrong. This is not subtraction."
+    output = "Wrong. This is not subtraction. Look carefully"
     score -=1
   elif answer == "b":
     output = "Wrong. This is not multiplication."
@@ -32,7 +32,7 @@ while tracker !=1:
     output = "Wrong. This is not division."
     score -=1
   else:
-    output = "Please choose a, b, c or d only."
+    output = "Please choose a, b, c or d only.Choose wisely!"
   
   print()
   print(output)
@@ -119,5 +119,5 @@ while tracker !=1:
   print()
   print()
   
-print("End of quiz!)
+print("End of quiz! Congratulations! Try harder id you di not get full marks and learn from your mistakes:)")
 
