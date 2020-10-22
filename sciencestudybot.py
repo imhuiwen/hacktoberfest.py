@@ -97,7 +97,7 @@ while tracker !=1:
     output = "Wrong. Think again - how many electron shells are filled, and which group is this in?"
     score -=1
   elif answer == "b":
-    output = "Wrong.  Think again - how many electron shells are filled, and which group is this in?"
+    output = "Wrong.  Think again - how are these electron shells related to the periodic table?"
     score -=1
   elif answer == "c":
     output = "Wrong.  Think again - how many electron shells are filled, and which group is this in?"
