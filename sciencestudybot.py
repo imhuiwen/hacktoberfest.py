@@ -1,4 +1,4 @@
-print("Title of program: MCQ revision program")
+print("title of program: MCQ revision program")
 print()
 
 counter = 0
