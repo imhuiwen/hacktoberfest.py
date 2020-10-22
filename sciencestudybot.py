@@ -37,7 +37,7 @@ while tracker !=1:
   print()
   print(output)
   print()
-  print("Your current score: " + str(round((score/total_num_of_qn*100),1)) + "%"  )
+  print("Your current score: " + str(round((score/total_num_of_qn*100),1)) + "% Don't worry you can do it!"  )
   print()
   print()
   
