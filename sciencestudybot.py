@@ -3,7 +3,7 @@ print()
 
 counter = 0
 score = 0
-total_num_of_qn = 3
+total_num_of_qn = 4
 
 
 counter +=1
@@ -79,7 +79,41 @@ while tracker !=1:
   print()
   print()
   
+counter +=1
+tracker = 0
+
+while tracker !=1:
   
+  print("Q"+str(counter)+") "+ "What happens when a lot of water goes inside a plant cell??")
+  print("   a) Turgid")
+  print("   b) Plasmolysed")
+  print("   c) Crenation")
+  print("   d) Lysis")
+  answer = input("Your answer: ")
+  answer = answer.lower()
+  if answer == "a":
+    output = "Yes, that's right!"
+    tracker =1
+    score +=1
+  elif answer == "b":
+    output = "Nope. That is when water leaves the plant cell"
+    score -=1
+  elif answer == "c":
+    output = "Wrong. That's for animal cells"
+    score -=1
+    
+  elif answer == "d":
+    output = "Wrong. For animal cells I am talking about  plant cells"
+    score -=1
+  else:
+    output = "Please choose a, b, c or d only."
+
+  print()
+  print(output)
+  print()
+  print("Your current score: " + str(round((score/total_num_of_qn*100),1)) + "%"  )
+  print()
+  print() 
 
 counter +=1
 tracker = 0
