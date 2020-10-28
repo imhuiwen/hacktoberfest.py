@@ -103,7 +103,7 @@ while tracker !=1:
     score -=1
     
   elif answer == "d":
-    output = "Wrong. For animal cells I am talking about  plant cells"
+    output = "Wrong. Although lysis happens when a lot of water enters inside a cell, but that's for animal cells, I am talking about  plant cells... try again"
     score -=1
   else:
     output = "Please choose a, b, c or d only."
