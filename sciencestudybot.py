@@ -1,4 +1,4 @@
-print("title of program: MCQ revision program")
+print("title of program: science MCQ revision program")
 print()
 
 counter = 0
@@ -11,10 +11,10 @@ tracker = 0
 
 while tracker !=1:
   
-  print("Q"+str(counter)+") "+ "What is 12 + 2?")
+  print("Q"+str(counter)+") "+ "What is 12 + 4?")
   print("   a) 10")
-  print("   b) 24")
-  print("   c) 14")
+  print("   b) 28")
+  print("   c) 16")
   print("   d) 6")
   answer = input("Your answer: ")
   answer = answer.lower()
